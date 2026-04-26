@@ -3,7 +3,6 @@ package org.uade.util;
 import org.uade.structure.definition.LinkedListADT;
 import org.uade.structure.implementation.dynamic.DynamicLinkedListADT;
 import org.uade.structure.implementation.fixed.StaticLinkedListADT;
-import org.uade.structure.implementation.fixed.StaticSimpleDictionaryADT;
 
 public class LinkedListADTUtil extends BaseUtil {
 
