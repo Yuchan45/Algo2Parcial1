@@ -32,13 +32,13 @@ public class AdditionalQueueExercise21 {
         int firstElement = queue.getElement();
         queue.remove();
 
-        int size = 0;
+        // int size = 0;
         QueueADT tempQueue = new StaticQueueADT();
 
         while (!queue.isEmpty()) {
             tempQueue.add(queue.getElement());
             queue.remove();
-            size++;
+            // size++;
         }
 
         while (!tempQueue.isEmpty()) {

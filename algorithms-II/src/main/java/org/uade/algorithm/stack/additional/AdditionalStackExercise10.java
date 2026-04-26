@@ -14,6 +14,7 @@ public class AdditionalStackExercise10 {
         StackADT jug1 = new StaticStackADT();
         StackADT jug2 = new StaticStackADT();
 
+        pozo.add(7);
         pozo.add(6);
         pozo.add(5);
         pozo.add(4);
