@@ -20,6 +20,8 @@ public class AdditionalStackExercise11 {
         dada.add(3);
         dada.add(4);
         dada.add(1);
+        System.out.println("Elementos en DADA son:");
+        StackADTUtil.print(dada);
 
         removeMatchingElements(mod, dada);
 

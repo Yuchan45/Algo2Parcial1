@@ -20,7 +20,6 @@ public class LinkedListADTUtil extends BaseUtil {
             }
         }
         System.out.println();
-
     }
 
     public static LinkedListADT copy(LinkedListADT list) {

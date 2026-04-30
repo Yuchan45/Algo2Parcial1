@@ -11,11 +11,11 @@ public class AdditionalStackExercise13 {
     public static void main(String[] args) {
         StackADT dada = new StaticStackADT();
 
-        dada.add(5);
-        dada.add(4);
-        dada.add(3);
-        dada.add(2);
         dada.add(1);
+        dada.add(2);
+        dada.add(3);
+        dada.add(4);
+        dada.add(5);
 
         moveFirstToLast(dada);
 
