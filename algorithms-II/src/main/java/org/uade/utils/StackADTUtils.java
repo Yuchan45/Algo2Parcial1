@@ -1,27 +1,10 @@
-package org.uade.exercises;
+package org.uade.utils;
 
 import org.uade.structure.definition.StackADT;
 import org.uade.structure.implementation.dynamic.DynamicStackADT;
 import org.uade.structure.implementation.fixed.StaticStackADT;
 
-// Llegue a hacer solo el c) que lo tengo en los utils de printear el stack sin perder info.
-public class Exercise001 {
-
-    // Ejercicio 1 c.
-    public static void main(String[] args) {
-        // Init
-        StackADT stack = new StaticStackADT();
-        stack.add(4);
-        stack.add(2);
-        // stack.add(1);
-        stack.add(5);
-        stack.add(4);
-        stack.add(3);
-
-        System.out.println("Stack:");
-        print(stack);
-    }
-
+public class StackADTUtils {
     // Factory
     private static StackADT getNewStack(StackADT stack) {
         if (stack instanceof DynamicStackADT) {
@@ -59,4 +42,6 @@ public class Exercise001 {
             copy.remove();
         }
     }
+
+
 }
