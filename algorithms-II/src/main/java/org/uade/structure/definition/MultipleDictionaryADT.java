@@ -15,6 +15,12 @@ public interface MultipleDictionaryADT {
     void remove(int key);
 
     /**
+     * Descripcion: Elimina el elemento de la estructura, si no existe no hace nada. Precondición: La estructura debe
+     * tener elementos y deben existir.
+     */
+    void remove(int key, int value);
+
+    /**
      * Descripcion: Devuelve el valor de una clave. Precondición: La estructura debe tener elementos y la clave debe
      * existir.
      */
@@ -30,9 +36,5 @@ public interface MultipleDictionaryADT {
      */
     boolean isEmpty();
 
-    /**
-     * Descripcion: Elimina el elemento de la estructura, si no existe no hace nada. Precondición: La estructura debe
-     * tener elementos y deben existir.
-     */
-    void remove(int key, int value);
+
 }
