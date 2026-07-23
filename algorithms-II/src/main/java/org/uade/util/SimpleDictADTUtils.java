@@ -5,7 +5,7 @@ import org.uade.structure.definition.SimpleDictionaryADT;
 import org.uade.structure.implementation.dynamic.DynamicSimpleDictionaryADT;
 import org.uade.structure.implementation.fixed.StaticSimpleDictionaryADT;
 
-public class DictADTUtils {
+public class SimpleDictADTUtils {
 
     public static SimpleDictionaryADT getNewDict(SimpleDictionaryADT dict) {
         if (dict instanceof StaticSimpleDictionaryADT) {
